@@ -1,3 +1,3 @@
 local lib = require("glua")
 
-lib.hello("world")
+lib.hello("world" .. ", from " .. "lua")
